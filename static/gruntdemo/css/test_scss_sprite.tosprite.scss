@@ -1,0 +1,67 @@
+$blue : #1875e7;
+$lside: left;
+$var: 51;
+
+div {
+    color: $blue;
+}
+
+.rounded {
+    margin-#{$lside}: 5px;
+}
+
+.cal{
+    margin: (14px/2);
+    top: 50px + 100px; 
+}
+
+div {
+    h1 {
+        color: red;
+    }
+}
+
+p {
+    border: {
+        color: blue;
+    }
+}
+
+.icon_switch-off{background-image:url("../images/slice/icon_switch-off.png");width:71px;height:29px}
+.icon_switch-on{background-image:url("../images/slice/icon_switch-on.png");width:71px;height:29px}
+.icon_tip-error{background-image:url("../images/slice/icon_tip-error.png");width:24px;height:24px}
+.icon_tip-ok{background-image:url("../images/slice/icon_tip-ok.png");width:24px;height:24px}
+.icon_tip-warn{background-image:url("../images/slice/icon_tip-warn.png");width:24px;height:24px}
+.icon_wait{background-image:url("../images/slice/icon_wait.png");width:14px;height:14px}
+
+.iocn_ext1{ background-image:url(../images/slice/icon_wait.png);}
+.iocn_ext1{ background-image:url(../images/slice/icon_wait.png); /* repeat test */}
+/* miss semicolon test */
+.iocn_ext2{ height:14px; width:14px; background-image:url(../images/slice/icon_wait.png)}
+.iocn_ext3{ background-image:url(../images/slice/icon_wait_nofile.png); /* no file test */}
+.iocn_ext4{ background:url(../images/slice/icon_wait.png) no-repeat;}
+.iocn_ext5{ background:#fff url(../images/slice/icon_wait.png) no-repeat;}
+
+.iocn_ext7{ background-image:url(/slice/icon_wait.png);}
+.iocn_ext8{ background-image:url(/w/grunt-css-sprite/test/slice/icon_wait.png);}
+
+.iocn_ext9{
+	/* multi-line test */
+	background:url(../images/slice/icon_wait.png) no-repeat;
+	_background-image:url(../images/slice/icon_wait.png) no-repeat;
+}
+
+.iocn_ext10{
+	/* content test */
+	content: '}';
+	background:url(../images/slice/icon_tip-warn.png) no-repeat;
+	background-image:url(../images/slice/icon_tip-warn.png) no-repeat;
+}
+
+#iocn_ext11{
+	background:url(../images/slice/icon_wait.png) no-repeat;
+	background-image:url(../images/slice/icon_wait.png);
+	content: '}';
+}
+
+span{ background:url(../images/slice/icon_wait.png) no-repeat; }

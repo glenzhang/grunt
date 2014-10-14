@@ -1,0 +1,28 @@
+$blue : #1875e7;
+$lside: left;
+$var: 51;
+
+div {
+    color: $blue;
+}
+
+.rounded {
+    margin-#{$lside}: 5px;
+}
+
+.cal{
+    margin: (14px/2);
+    top: 50px + 100px; 
+}
+
+div {
+    h1 {
+        color: red;
+    }
+}
+
+p {
+    border: {
+        color: blue;
+    }
+}
