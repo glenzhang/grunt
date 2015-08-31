@@ -7,6 +7,7 @@
 1. 所以的操作都是在node平台上，需要安装[Node.js](http://www.nodejs.org/)
 2. Grunt官方说明[Grunt.js](http://gruntjs.com/)，请运行npm install -g grunt-cli
 3. sass编译环境依赖[ruby](https://www.ruby-lang.org/zh_cn/downloads/)和[gem](http://rubygems.org/pages/download)，安装后运行gem install sass
+    > 鉴于国内的网络的情况，gem可能会无法运行，请替换gem source为大淘宝的镜像，命令`gem -r https://rubygems.org && gem -a http://ruby.taobao.org`
 
 # 接入static目录 #
 1. 添加pacekage.json, 增加相应的node modules
