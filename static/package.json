@@ -1,23 +1,23 @@
 {
-  "name": "fanli-grunt-app",
-  "version": "0.1.0",
-  "description": "grunt",
-  "dependencies": {
-    "grunt": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-concat": "*",
-    "grunt-contrib-sass": "*",
-    "grunt-css-sprite": "*",
-    "grunt-contrib-clean": "*",
-	 "pngsmith": "^0.1.3"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "client": {
-    "root": "gruntdemo"
-  }
+    "name": "fanli-grunt-app",
+    "version": "0.1.0",
+    "description": "grunt",
+    "dependencies": {
+        "grunt": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-sass": "*",
+        "grunt-css-sprite": "*",
+        "grunt-contrib-clean": "*",
+        "pngsmith": "^0.1.3"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "client": {
+        "root": "gruntdemo"
+    }
 }
